@@ -1,0 +1,123 @@
+body{ text-transform: capitalize; 
+  text-align: center;
+  vertical-align:bottom ;
+   direction: rtl;
+line-height: 1.7; 
+word-break: normal;
+text-overflow:ellipsis;
+  /*    vertical-align:bottom ; للتحكم في الصور */
+  /*  direction: rtl ( فيديو 18 لما بيقا موقع عربي )*/
+/*  text-align: center  فيديو 19 التحكم في مكان الكلام */
+/* text-transform: capitalize;  التحكم في حروف الكابتل و السمول فديو 19  */
+/*  letter-spacing: مسافه الحروف جنب يعض 
+line-height: 1.7; المسافه بين السطور 
+white-space: التحكم في الكلام فيديو 20
+word-break: normal;
+*/
+
+   background-color: rgb(255, 255, 255);}
+selector  { property: value }
+#michael{background-color: rgba(245, 245, 245, 0.356);}
+#michael {background-size: 50%;}
+.NAME { color :rgb(21, 166, 202) ; font-size: 50px;}
+body{  background-image: url(./850A4508.jpg) ;    background-attachment:fixed;
+   background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  
+ background-size :100%;
+padding: 50px 20px 40px 60px; margin: auto;
+font-weight: bold ;}
+/*font-weight: boldللخط البول او ارجعو عادي   */
+
+  /* background-attachment: fixed لو عايزها تفضل فوق 
+  background-repeat: no-repeat تكرار الصوره او لا 
+   background-repeat: no-repeat حجم الصوره ( الدرس 6 )*/
+
+
+/* background-attachment:  fixed; background-repeat: */
+/* background-position: left top; */
+
+.one {  background-color: rgba(255, 255, 255, 0.486); 
+    border: 5px solid green ;
+      color: rgb(0, 0, 0);   ;  text-align: center;      ;
+    }
+ 
+ .two {  background-color: rgba(39, 23, 182, 0.397); 
+    border: 3px solid rgb(55, 255, 172) ;
+      color: rgb(0, 0, 0) ; 
+       text-align: center  ; width: 100%; 
+      
+    }
+ 
+ .three {  background-color: rgba(127, 203, 247, 0.226) ; 
+    border: 2px solid rgb(27, 208, 221)  ;
+      color: rgb(0, 0, 0);  ;
+      text-align: center  ; width: 30%;
+    }
+ 
+ .one,
+ .two{   padding: 10px;  margin: 10px  
+ }
+       
+ p { color: rgb(1, 34, 23);}
+ div p { 
+color: rgb(5, 158, 13);
+  display: inline-block; 
+  background-color: rgba(20, 123, 163, 0.233);
+width: fit-content;
+overflow: auto;
+}
+a { color: rgb(0, 0, 0) ;
+  text-decoration:none; 
+  
+/*   text-decoration:none;  الخط الي تحت الكلام  */
+}
+    
+  .assign-1-shape-1,
+  .assign-1-shape-2,
+  .assign-1-shape-3 {
+    background-color: aqua; width: 700px;
+    border:  5px   solid yellow;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis ; 
+ font-size: x-large;
+ 
+}
+
+.link div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgba(243, 243, 243, 0);
+  width: 18%;
+  float: left;
+  border: 5px rgb(34, 231, 166) solid;
+  border-radius: 50px;
+  margin-left: 1%;
+  
+} 
+
+.one div{  text-align: center;
+}
+
+
+.مقدمه {  border: 5px rgb(13, 129, 196) solid;  border-radius: 150px; 
+
+}
+
+
+.name { font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.تسجيل {  background-color: rgba(154, 255, 255, 0.336) ;   text-align: center; height: min-content
+  ;
+  ;}
+   
+  header { display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  }
+
